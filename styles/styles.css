@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+	padding-left: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	line-height: 2.5em;
+	background-image:url("https://tse3.mm.bing.net/th?id=OIP.ItCAjKuIi310hjekSSp4SQHaD8&pid=Api&P=0&w=339&h=181");
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+
+.our-content{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	padding-top:100px;
+	max-width: 600px;
+	line-height: 2em;
+	padding-bottom:80px; 
+	margin:auto;
+}
+
+.active{
+	background-color: orange;
+}
+
+button{
+	background-color:#04BBFF;
+}
+
+
+ul {
+	margin:0;
+	padding: 0;
+  	list-style-type: none;
+  	overflow: hidden;
+  	background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+	padding:0;
+	margin:0;
+	height: 50px;
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
